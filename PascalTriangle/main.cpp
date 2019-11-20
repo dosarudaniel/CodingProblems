@@ -2,6 +2,11 @@
 #include<vector>
 using namespace std;
 
+/*
+Given numRows, generate the first numRows of Pascal’s triangle.
+Pascal’s triangle : To generate A[C] in row R, sum up A’[C] and A’[C-1] from previous row R - 1.
+*/
+
 vector<vector<int> > solve(int A) {
     vector<vector<int> >  result;
 
